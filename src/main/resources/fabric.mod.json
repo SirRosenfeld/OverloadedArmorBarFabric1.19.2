@@ -19,11 +19,13 @@
       	"mixins.overloadedarmorbar.json"
     ],
     "depends": {
-      "fabric": "*"
+        "fabric": "*",
+        "minecraft": "~1.19.2"
     },
     "recommends": {
         "modmenu" : "*",
-        "modupdater": ">=1.1.7"        
+        "modupdater": ">=1.1.7",
+        "fabricloader": ">=0.14.9"
     },
     "name": "Overloaded Armor Bar",
     "description": "The vanilla armor bar doesn't accurately show \"better than diamond\" level armor, as it simply maxes out when its full. This mod allows armor values over 20 to be displayed as different colored (configurable) icons depending on how many times you fill the bar.",
